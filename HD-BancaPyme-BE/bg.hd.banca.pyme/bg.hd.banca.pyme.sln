@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bg.hd.banca.pyme.application", "src\bg.hd.banca.pyme.application\bg.hd.banca.pyme.application.csproj", "{AD78D691-05A3-44DA-865A-E322A17FF356}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bg.hd.banca.pyme.domain", "src\bg.hd.banca.pyme.domain\bg.hd.banca.pyme.domain.csproj", "{44655F2D-F565-460D-9069-86516D1161B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bg.hd.banca.pyme.infrastructure", "src\bg.hd.banca.pyme.infrastructure\bg.hd.banca.pyme.infrastructure.csproj", "{755BAC8F-677E-4FE6-8780-0B0B3FF878A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bg.hd.banca.pyme.api", "src\bg.hd.banca.pyme.api\bg.hd.banca.pyme.api.csproj", "{DBE8DEB0-C315-4F24-A0DE-08EBBB943654}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{16E068B2-8CB7-4B9D-94B5-97E2871D7A4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{901820BF-D1DC-4B69-A86E-061836AB9817}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD78D691-05A3-44DA-865A-E322A17FF356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD78D691-05A3-44DA-865A-E322A17FF356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD78D691-05A3-44DA-865A-E322A17FF356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD78D691-05A3-44DA-865A-E322A17FF356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44655F2D-F565-460D-9069-86516D1161B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44655F2D-F565-460D-9069-86516D1161B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44655F2D-F565-460D-9069-86516D1161B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44655F2D-F565-460D-9069-86516D1161B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{755BAC8F-677E-4FE6-8780-0B0B3FF878A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{755BAC8F-677E-4FE6-8780-0B0B3FF878A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{755BAC8F-677E-4FE6-8780-0B0B3FF878A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{755BAC8F-677E-4FE6-8780-0B0B3FF878A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBE8DEB0-C315-4F24-A0DE-08EBBB943654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBE8DEB0-C315-4F24-A0DE-08EBBB943654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBE8DEB0-C315-4F24-A0DE-08EBBB943654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBE8DEB0-C315-4F24-A0DE-08EBBB943654}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AD78D691-05A3-44DA-865A-E322A17FF356} = {16E068B2-8CB7-4B9D-94B5-97E2871D7A4D}
+		{44655F2D-F565-460D-9069-86516D1161B5} = {16E068B2-8CB7-4B9D-94B5-97E2871D7A4D}
+		{755BAC8F-677E-4FE6-8780-0B0B3FF878A2} = {16E068B2-8CB7-4B9D-94B5-97E2871D7A4D}
+		{DBE8DEB0-C315-4F24-A0DE-08EBBB943654} = {16E068B2-8CB7-4B9D-94B5-97E2871D7A4D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DA207F0-7BE7-4F5D-A5AB-7C8D195B56FE}
+	EndGlobalSection
+EndGlobal
